@@ -5,13 +5,14 @@
 }
 
 header{
-    background-color: aqua;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
 }
 
 .couteudo-header{
     display: flex;
     justify-content: center;
-    background-color: aqua
+    
 }
 
 .img-header{
@@ -28,24 +29,28 @@ header{
    width: 80%;
    list-style: none;
    font-size: 20px;
-
+   color: #707070;
 }
 
 .li-title{
     width: 110px;
 }
 
+.li-title:hover{
+    color: #000000;
+}
+
 .sobre-header{
    display: flex;
-   background-color:  brown;
+   
 }
 
 .text-header{
     position: relative;
-    width: 399px;
+    width: 487px;
     top: 24px;
     height: 125px;
-    left: 30px;
+    left: 50px;
 }
 
 .logo-header{
@@ -62,7 +67,7 @@ header{
     height: 144px;
     position: relative;
     top: 24px;
-    left: 31px;
+    left: 151px;
 }
 
 .linha-amarela{
@@ -70,20 +75,20 @@ header{
     height: 161px;
     position: relative;
     top: 1px;
-    right: 208px;
+    right: 85px;
 }
 
 .pedras{
     width: 113px;
     height: 96px;
     position: relative;
-    right: 190px;
+    right: 71px;
     top: 48px;
 }
 
-.fim-header{
-    background: chartreuse;
-}
+/* .fim-header{
+    
+} */
 
 .text-fim{
     display: flex;
@@ -91,15 +96,22 @@ header{
 
 .main-list{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
     width: 100%;
     padding: 1rem;
     font-size: 35px;
 }
 
+.list-red{
+    text-decoration: underline; 
+    text-decoration-color: crimson; 
+    color: currentcolor;
+}
+
 main{
-    background-color: coral; 
+    background: #B4F8F7 0% 0% no-repeat padding-box;
+opacity: 1; 
 }
 
 .imgs-main{
@@ -112,7 +124,7 @@ main{
 }
 
 .main-imgs{
-    width: 500px;
+    width: 448px;
     height: 500px;
     padding: 2rem;
     
@@ -123,38 +135,52 @@ main{
     display: flex;
     justify-content: center;
     font-size: 35px;
+    height: 71px;
+    align-items: center;
+    position: relative;
+    bottom: 21px;
+    
+}
+
+a{
+     text-decoration: underline; 
+     text-decoration-color: crimson; 
+     color: currentcolor; 
+     position:relative;
+     bottom: 14px;
 }
 
 footer{
-    background-color: cyan;
+    background: #F8F3A1 0% 0% no-repeat padding-box;
+opacity: 1;
 
 }
 
 .text-footer{
     display: flex;
     justify-content: space-evenly;
-    width: 57%;
+    width: 66%;
     align-items: center;
-    font-size: 35px;
+    font-size: 30px;
     position: relative;
-    left: 47px;
     padding: 1rem;
 }
 
 .paragraph-footer{
     position: relative;
-    right: 114px;
+    left: 38px;
 }
 
 .paragraph-cop{
     position: relative;
-    right: 110px;
+    right: 31px;
     /* paragraph copyright */
 }
 
 .paragraph-cont{
     position: relative;
-    left: 74px;
+    left: 38px;
+    color: #000000;
     /* paragraph contato */
 }
 
@@ -162,28 +188,34 @@ footer{
     display: flex;
     justify-content: space-evenly;
     width: 52%;
-    left: 153px;
+    left: 156px;
     position: relative;
     bottom: 6px;
-    font-size: 30px;
+    font-size: 20px;
+    padding: 1rem;
 }
 
 .sub-paragraph{
     position: relative;
-    left: 18px;
+    left: 57px;
+    font: normal normal 300 20px/41px Open Sans;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    opacity: 1;
+    bottom: 7px;
 }
 
 .info-paragraph{
     position: relative;
-    left: 65px;
+    left: 56px;
     /* paragraph info@berk */
 }
 
 .imgs-footer{
-    width: 252px;
+    width: 282px;
     position: relative;
-    left: 805px;
-    bottom: 91px;
+    left: 743px;
+    bottom: 131px;
 }
 
 .footer-imgs{
