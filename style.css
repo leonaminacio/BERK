@@ -15,11 +15,8 @@ opacity: 1;
     
 }
 
-.img-header{
-    /* padding: 1rem; 
-    display: flex;
-    width: 14%;
-    justify-content: center; */
+h2{
+    color: #45CFC9;
 }
 
 .header-list{
@@ -86,9 +83,6 @@ opacity: 1;
     top: 48px;
 }
 
-/* .fim-header{
-    
-} */
 
 .text-fim{
     display: flex;
@@ -119,16 +113,10 @@ opacity: 1;
     justify-content: center;
 }
 
-.list-main{
-    
-}
-
 .main-imgs{
     width: 448px;
     height: 500px;
     padding: 2rem;
-    
-    /* imgs main */
 }
 
 .veja-mais{
@@ -174,14 +162,12 @@ opacity: 1;
 .paragraph-cop{
     position: relative;
     right: 31px;
-    /* paragraph copyright */
 }
 
 .paragraph-cont{
     position: relative;
     left: 38px;
     color: #000000;
-    /* paragraph contato */
 }
 
 .sub-text{
@@ -208,7 +194,6 @@ opacity: 1;
 .info-paragraph{
     position: relative;
     left: 56px;
-    /* paragraph info@berk */
 }
 
 .imgs-footer{
@@ -284,6 +269,101 @@ opacity: 1;
         width: 176px;
         left: 482px;
         bottom: 122px;
+    }
+    .footer-imgs{
+        width: 24px;
+        height: 26px;
+    }
+}
+
+@media(max-width: 425px) {
+    .img-header{
+        padding: 1rem;
+    }
+    .header-list{
+        width: 57%;
+        font-size: 12px;
+    }
+    .li-title{
+        width: 74px;
+    }
+    .sobre-header{
+        width: 425px;
+    }
+    .text-header{
+        width: 236px;
+        height: 179px;
+        left: 15px;
+        font-size: 12px;
+    }
+    .logo-header{
+        width: 37%;
+        left: 24px;
+        bottom: 23px;
+    }
+    .fundo-roxo{
+        width: 87px;
+        height: 100px;
+        left: 114px;
+    }
+    .linha-amarela{
+        width: 97px;
+        height: 64px;
+        top: 41px;
+        right: 9px;
+    }
+    .pedras{
+        width: 50px;
+        height: 50px;
+        top: 58px;
+        left: 0;
+    }
+    .main-list{
+        font-size: 15px;
+    }
+    .main-imgs{
+        width: 200px;
+        height: 200px;
+    }
+    .veja-mais{
+        font-size: 20px;
+    }
+    .text-footer{
+        width: 100%;
+        font-size: 20px;
+    }
+    .paragraph-footer{
+        right: 37px;
+    }
+    .paragraph-cop{
+        right: 24px;
+    }
+    .paragraph-cont{
+        left: 25px;
+    }
+    .sub-text{
+        width: 97%;
+        bottom: 22px;
+        font-size: 14px;
+        left: 12px;
+        height: 102px;
+
+    }
+    .sub-paragraph{
+        left: 49px;
+        bottom: 6px;
+        right: 50px;
+    }
+    .info-paragraph{
+        left: 34px;
+        top: 8px;
+
+    }
+    .imgs-footer{
+        width: 219px;
+        padding: 1rem;
+        left: 113px;
+        bottom: 23px;
     }
     .footer-imgs{
         width: 24px;
