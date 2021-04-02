@@ -222,3 +222,71 @@ opacity: 1;
     width: 38px;
     height: 33px;
 }
+
+@media(max-width: 768px) {
+    .text-header{
+        width: 395px;
+        height: 125px;
+        left: 15px;
+    }
+
+    .logo-header{
+        width: 43%;
+        left: 36px;
+    }
+
+    .fundo-roxo{
+        width: 135px;
+        height: 131px;
+    }
+    .linha-amarela{
+        width: 159px;
+        height: 123px;
+        top: 23px;
+        right: 51px;
+    }
+    .pedras{
+        width: 100px;
+        height: 70px;
+        right: 45px;
+        top: 69px;
+    }
+    .main-imgs{
+        width: 300px;
+        height: 300px;
+    }
+    .text-footer{
+        width: 62%;
+        font-size: 20px;
+    }
+    .paragraph-footer{
+        left: -6px;
+    }
+    .paragraph-cop{
+        right: 19px;
+    }
+    .sub-text{
+        width: 46%;
+        bottom: 22px;
+        font-size: 14px;
+    }
+    .sub-paragraph{
+        left: -5px;
+        font: normal normal 300 14px/41px Open Sans;
+        bottom: 6px;
+        right: 10px;
+    }
+    .info-paragraph{
+        left: 5px;
+        top: 8px;
+    }
+    .imgs-footer{
+        width: 176px;
+        left: 482px;
+        bottom: 122px;
+    }
+    .footer-imgs{
+        width: 24px;
+        height: 26px;
+    }
+}
